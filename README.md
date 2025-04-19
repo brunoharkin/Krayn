@@ -8,7 +8,6 @@
 <a href="https://packagist.org/packages/krayin/laravel-crm"><img src="https://poser.pugx.org/krayin/laravel-crm/license.svg" alt="License"></a>
 </p>
 
-
 ![enter image description here](https://raw.githubusercontent.com/krayin/temp-media/master/dashboard.png)
 
 ## Topics
@@ -68,18 +67,15 @@ Take advantage of two of the hottest frameworks used in this project -- Laravel 
 ### Installation and Configuration
 
 ##### Execute these commands below, in order
-
-```
+Use code with caution.
+Markdown
 composer create-project
-```
 
 -   Find **.env** file in root directory and change the **APP_URL** param to your **domain**.
 
 -   Also, Configure the **Mail** and **Database** parameters inside **.env** file.
-
-```
+Use code with caution.
 php artisan krayin-crm:install
-```
 
 **To execute Krayin**:
 
@@ -89,27 +85,21 @@ Warning: Before going into production mode we recommend you uninstall developer 
 In order to do that, run the command below:
 
 > composer install --no-dev
-
-```
+Use code with caution.
 Open the specified entry point in your hosts file in your browser or make an entry in hosts file if not done.
-```
 
 ##### On local:
-
-```
+Use code with caution.
 php artisan route:clear
 php artisan serve
-```
-
 
 **How to log in as admin:**
 
 > _http(s)://example.com/admin/login_
-
-```
+Use code with caution.
 email:admin@example.com
 password:admin123
-```
+
 ### WhatsApp CRM Integration
 
 [Krayin CRM WhatsApp](https://krayincrm.com/extensions/krayin-crm-whatsapp-extension/) Extension enables the store administrator to generate leads via their WhatsApp number.
